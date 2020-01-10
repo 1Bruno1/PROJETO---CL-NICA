@@ -1,7 +1,7 @@
 body {
     /*  CORPO DO SITE (body)   */
     margin: 0px;
-    /*  MARGEM = DISTÂNCIA (lados, cima e baixo) ENTRE O CABEÇALHO E AS MARGENS DA TELA   */
+    /*  MARGIN = DISTÂNCIA (lados, cima e baixo) ENTRE O CABEÇALHO E AS MARGENS DA TELA   */
     background-color: rgb(19, 199, 206);
     /*  COR DE FUNDO DO CORPO   */
 }
@@ -17,21 +17,29 @@ body {
 .cabeçalho {
     /*   CABEÇALHO (header) DO SITE  */
     height: 120px;
+    /*   height = altura  */
     background-color: black;
 }
 
 #img-logo {
+    /*   imagem (logo) colocada no header   */
     width: 150px;
+    /*   width = largura  */
     height: 120px;
+    /*   height = altura  */
+    /*   px = pixels, exemplo: 120 pixels */
 }
 
 #nome-logo {
+    /*   título do site colocado no header  */
     color: rgb(255, 255, 255);
+    /*   cor da fonte   */
     font-size: 80pt;
 }
 
 .body-container {
     min-height: 80vh;
+    /*   altura mínima do rodapé  */
 }
 
 footer {

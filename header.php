@@ -19,9 +19,17 @@
           <!-- abre o corpo do site (body) e deixa em aberto para adicionar coisas -->
     <header>    <!-- o cabeçalho (header) precisa estar dentro do corpo (body) -->
 
-    <div class="container cabeçalho">
-    <img id="img-logo" src="img/umbrella.png" alt="logo">
+    <div class="container cabeçalho">   <!-- criando uma classe para dividir melhor (div)  -->
+
+    <img id="img-logo" src="img/umbrella.png" alt="logo">  <!--  Importando imagem usada na logo do site (no cabeçalho)  -->
+
+    <!--   id - usa pra dar um nome e diferenciar  -->
+    <!--   src - lugar onde está a imagem. Exemplo: "Desktop/Imagem/Itachi.png"  -->
+    <!--   alt - descrição  -->
+
     <span id="nome-logo">Clínica Umbrella</span>
+    <!-- span = título do cabeçalho  -->
+
     </div>
 
     </header>
