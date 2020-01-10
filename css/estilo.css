@@ -1,14 +1,21 @@
 body {
+    /*  CORPO DO SITE (body)   */
     margin: 0px;
+    /*  MARGEM = DISTÂNCIA (lados, cima e baixo) ENTRE O CABEÇALHO E AS MARGENS DA TELA   */
     background-color: rgb(19, 199, 206);
+    /*  COR DE FUNDO DO CORPO   */
 }
 
 .container {
+    /*   NOME DA CLASSE CRIADA NO HEADER   */
     width: 100%;
+    /*   WIDTH = ALTURA  */
     padding: 10px 10px;
+    /*   limita a distância do cabeçalho (10 pixels cima e baixo) e (10 pixels dos lados) */
 }
 
 .cabeçalho {
+    /*   CABEÇALHO (header) DO SITE  */
     height: 120px;
     background-color: black;
 }
