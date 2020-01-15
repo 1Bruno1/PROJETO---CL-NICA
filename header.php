@@ -1,5 +1,5 @@
 <!DOCTYPE html>      <!--   código gerado digitando = "html: 5"  -->
-<html lang="pt-BR">
+<html lang="pt-BR">  <!--   idioma do html   -->
 
 <head>  <!-- comentário -->
 
@@ -17,18 +17,29 @@
 
 <body>  
           <!-- abre o corpo do site (body) e deixa em aberto para adicionar coisas -->
+
     <header>    <!-- o cabeçalho (header) precisa estar dentro do corpo (body) -->
 
     <div class="container cabeçalho">   <!-- criando uma classe para dividir melhor (div)  -->
 
-    <img id="img-logo" src="img/umbrella.png" alt="logo">  <!--  Importando imagem usada na logo do site (no cabeçalho)  -->
+    <a href="?pagina=home">
+        <img id="img-logo" src="img/umbrella.png" alt="logo">
+             <!--  Importando imagem usada na logo do site (no cabeçalho)  -->
+        <span id="nome-logo">Clínica Umbrella</span>
+           <!-- span = título do cabeçalho  -->
+    </a>
 
-    <!--   id - usa pra dar um nome e diferenciar  -->
-    <!--   src - lugar onde está a imagem. Exemplo: "Desktop/Imagem/Itachi.png"  -->
-    <!--   alt - descrição  -->
+        <!--   id - (usado no css) usa pra dar um nome e diferenciar  -->
+        <!--   src - lugar onde está a imagem. Exemplo: "Desktop/Imagem/Itachi.png"  -->
+        <!--   alt - descrição  -->
 
-    <span id="nome-logo">Clínica Umbrella</span>
-    <!-- span = título do cabeçalho  -->
+    <a href="?pagina=login">
+
+        <span id="titulo-login">Login</span>
+        
+    </a>
+
+      
 
     </div>
 

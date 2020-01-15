@@ -19,7 +19,10 @@ body {
     height: 120px;
     /*   height = altura  */
     background-color: black;
+    display: inline-flex;
 }
+
+.cabeçalho>* {}
 
 #img-logo {
     /*   imagem (logo) colocada no header   */
@@ -38,7 +41,7 @@ body {
 }
 
 .body-container {
-    min-height: 80vh;
+    min-height: 70vh;
     /*   altura mínima do rodapé  */
 }
 
@@ -48,4 +51,19 @@ footer {
     color: rgb(255, 255, 255);
     font-size: 14pt;
     text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#img-home {
+    height: 450px;
+}
+
+#titulo-login {
+    color: rgb(255, 255, 255);
+    font-size: 40pt;
+    padding: 430px 430px;
 }
