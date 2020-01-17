@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/estilo.css">   <!--   stylesheet são estilos diferentes do CSS  -->
-                                                    <!--   precisa identificar a paste e o arquivo   -->
+                                                    <!--   precisa identificar a pasta e o arquivo   -->
                                                     <!--   exemplo: "nome da pasta/ nome do arquivo.css   -->
                                                     <!--   exemplo: "css/estilo.css   -->
 
