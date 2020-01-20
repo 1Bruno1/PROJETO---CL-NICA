@@ -1,8 +1,22 @@
-<footer>
-    Copyright &copy; - Instagram: @__bru.no
-    <!--  Descrição no rodapé  -->
+    <footer class="rodape">
 
-</footer>
+        <div class="div-rodape">
+
+            Copyright &copy; - 
+
+            <a href="https://www.instagram.com/__bru.no/?hl=pt-br">
+
+              Instagram: @__bru.no
+            <!--  Descrição no rodapé  -->
+
+            </a>
+
+
+        </div>
+
+
+    </footer>
+
 
 </body>    <!-- Fecha o corpo do site (body) e o rodapé (footer) para serem unidos dps no index (como se fosse a classe main) -->
 

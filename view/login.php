@@ -1,26 +1,23 @@
 
-<h1>LOGIN</h1>
 <div class="grade">
-<form action="src/autenticar_login.php" method="POST">
 
-    <label for="imput_login">Login</label>
-    <input autocomplete="off" required class="input" type="text" name="login">
+        <form action="src/autenticar_login.php" class="formulario" method="POST">
 
+            <input autocomplete="off" required id="input-rg" type="text" name="login" placeholder="LOGIN">
 
-    <label for="input_senha">Senha</label>
-    <input required class="input" type="password" name="senha" id="input_Senha">
+            <input required class="input" type="password" name="senha" id="input-rg" placeholder="SENHA">
 
 
-    <?php if(isset($_GET['erro'])){ ?>
+            <?php if(isset($_GET['erro'])){ ?>
 
             <span class="error"> <?php echo $_GET['erro'] ?> </span>
 
-    <?php } ?>
+            <?php } ?>
 
-    <input style="float: right; margin-top: 20px" class="botao" type="submit" value="Fazer login">
+            <input style="float: right; margin-top: 20px" class="botao" type="submit" value="ENTRAR" id="input-login">
 
 
-</form>
+            </form>
 
 
 </div>

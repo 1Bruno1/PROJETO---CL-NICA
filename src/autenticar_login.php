@@ -33,9 +33,9 @@ $resultado = mysqli_query($conexao, $sql);
 
 if (mysqli_num_rows($resultado) == 1) {
     // header = cabeçalho para o HTTP identificar a página mais fácil
-    header('location: http://localhost/clinica_umbrela/index.php?pagina=home');
+    header('location: http://localhost/clinica_umbrela/?pagina=home');
 } else {
-    header('location: http://localhost/clinica_umbrela/index.php?pagina=login&erro=login ou senha inválios');
+    header('location: http://localhost/clinica_umbrela/?pagina=login&erro=Login ou Senha inválidos!');
 }
 
 // ************************************************************************************************************
