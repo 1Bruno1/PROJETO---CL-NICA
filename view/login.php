@@ -3,9 +3,9 @@
 
         <form action="src/autenticar_login.php" class="formulario" method="POST">
 
-            <input autocomplete="off" required id="input-rg" type="text" name="login" placeholder="LOGIN">
+            <input autocomplete="off" required id="input-lg" type="text" name="login" placeholder="LOGIN">
 
-            <input required class="input" type="password" name="senha" id="input-rg" placeholder="SENHA">
+            <input required class="input" type="password" name="senha" id="input-lg" placeholder="SENHA">
 
 
             <?php if(isset($_GET['erro'])){ ?>
@@ -14,7 +14,7 @@
 
             <?php } ?>
 
-            <input style="float: right; margin-top: 20px" class="botao" type="submit" value="ENTRAR" id="input-login">
+            <input style="float: right; margin-top: 20px" class="botao" type="submit" value="ENTRAR" id="input-botao">
 
 
             </form>

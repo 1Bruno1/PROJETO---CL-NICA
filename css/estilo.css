@@ -43,7 +43,7 @@ header {
 }
 
 .body-container {
-    min-height: calc(100vh - 220px);
+    min-height: calc(100vh - 200px);
     margin: 0px;
     /*   altura mínima do rodapé  */
 }
@@ -61,7 +61,7 @@ a {
 }
 
 footer {
-    height: 100px;
+    height: 80px;
     background-color: black;
     color: rgb(255, 255, 255);
     font-size: 14pt;
@@ -72,7 +72,9 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: calc(100vh - 220px);
+    min-height: calc(100vh - 200px);
+    background-image: url("http://localhost/clinica_umbrela/img/umbrela.jpeg");
+    background-repeat: no-repeat;
 }
 
 .center>.mensagem {
@@ -84,38 +86,9 @@ footer {
     align-items: center;
 }
 
-.center>.mensagem h1 {
-    font-size: 3.1rem;
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif
-}
-
-.center>.mensagem hr {
-    width: 300px;
-    height: 5px;
-    background-color: rgb(0, 0, 0);
-    border: none;
-}
-
-.center>.imagem {
-    text-align: center;
-    height: calc(100vh - 320px);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
 #img-home {
     height: 550px;
     width: 550px;
-}
-
-#titulo-login {
-    color: rgb(255, 255, 255);
-    font-size: 25pt;
-    margin-left: 200px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 form .error {
@@ -157,7 +130,7 @@ form .error {
     box-shadow: 10px 15px 11px 2px rgba(46, 42, 46, 0.9);
 }
 
-.grade>.formulario #input-rg {
+.grade>.formulario #input-lg {
     margin: 30px;
     height: 40px;
     width: 250px;
@@ -174,7 +147,7 @@ form .error {
     color: white;
 }
 
-.grade>.formulario #input-login {
+.grade>.formulario #input-botao {
     height: 45px;
     width: 180px;
     background-color: rgb(0, 0, 0);
@@ -182,4 +155,26 @@ form .error {
     color: rgb(226, 218, 218);
     font-family: 'Fjalla One', sans-serif;
     font-size: 25px;
+}
+
+#titulo {
+    color: rgb(255, 255, 255);
+    font-size: 25pt;
+    margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo-canto {
+    color: rgb(255, 255, 255);
+    font-size: 25pt;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.corpo-registro {
+    height: calc(100vh - 220px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

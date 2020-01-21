@@ -36,12 +36,43 @@
                 <!--   src - lugar onde está a imagem. Exemplo: "Desktop/Imagem/Itachi.png"  -->
                 <!--   alt - descrição  -->
 
-            <a href="?pagina=login">
+                
+                <?php if(isset($_SESSION['usuario-logado'])){ ?>
 
-                <span id="titulo-login">Login</span>
-        
-            </a>
-        </div>
+                    <a href="?pagina=medico">
+                        <span id="titulo">Médico</span>
+                    </a>
 
+                    <a href="?pagina=paciente">
+                        <span id="titulo-canto">Paciente</span>
+                    </a>
+
+                    <a href="?pagina=consulta">
+                        <span id="titulo-canto">Consulta</span>
+                    </a>
+
+                    <a href="src/sair.php">
+                    <span id="titulo-canto">Sair</span>
+                    </a>
+
+
+                <?php } else{ ?>
+    
+                    <a href="?pagina=login">
+
+                        <span id="titulo">Login</span>
+
+                    </a>
+
+                    <a href="?pagina=register">
+
+                        <span id="titulo-canto">Register</span>
+
+                     </a>
+            
+                 <?php } ?>
+
+
+    </div>
     
     </header>

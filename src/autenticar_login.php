@@ -22,7 +22,7 @@ $senha = isset($_POST['senha']) ? md5($_POST['senha']) : '';
 //  ____________________  3º CONSULTA NO BD SE O LOGIN E A SENHA EXISTEM ______________________________
 
 $sql = "SELECT * FROM `atendente`
-             WHERE login = '$login' AND senha = '$senha'; ";
+             WHERE login = '$login' AND senha = '$senha' ";
 
 // *****************************************************************************************************
 
@@ -33,7 +33,18 @@ $resultado = mysqli_query($conexao, $sql);
 
 if (mysqli_num_rows($resultado) == 1) {
     // header = cabeçalho para o HTTP identificar a página mais fácil
+
+    session_start();
+
+    $usuario = mysqli_fetch_assoc($resultado);
+
+    $_SESSION['usuario-logado'] = true;
+    $_SESSION['name'] = $usuario['nome'];
+
+    mysqli_close($conexao);
+
     header('location: http://localhost/clinica_umbrela/?pagina=home');
+
 } else {
     header('location: http://localhost/clinica_umbrela/?pagina=login&erro=Login ou Senha inválidos!');
 }

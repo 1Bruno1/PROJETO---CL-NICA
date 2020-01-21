@@ -1,3 +1,6 @@
+
+<?php session_start(); ?>
+
 <?php include_once 'header.php'; ?>
 
 
@@ -8,12 +11,31 @@
 $pagina = isset($_GET['pagina']) ? $_GET['pagina'] : 'home';
 
 switch ($pagina){
+
     case 'login':
         include_once('view/login.php');
         break;
+
     case 'home':
         include_once('view/home.php');
         break;
+
+    case 'register':
+        include_once('view/register.php');
+        break;
+
+    case 'medico':
+        include_once('view/medico.php');
+        break;
+
+    case 'paciente':
+        include_once('view/paciente.php');
+        break;
+
+    case 'consulta':
+        include_once('view/consulta.php');
+        break;
+
     default:
         include_once('view/home.php');
 }
