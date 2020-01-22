@@ -7,8 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilo.css">   <!--   stylesheet são estilos diferentes do CSS  -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/datatables.min.css"> 
+    
+                                                    <!--   stylesheet são estilos diferentes do CSS  -->
                                                     <!--   precisa identificar a pasta e o arquivo   -->
                                                     <!--   exemplo: "nome da pasta/ nome do arquivo.css   -->
                                                     <!--   exemplo: "css/estilo.css   -->
@@ -21,6 +26,8 @@
           <!-- abre o corpo do site (body) e deixa em aberto para adicionar coisas -->
 
     <header class="cabecalho">    <!-- o cabeçalho (header) precisa estar dentro do corpo (body) -->
+    
+        <nav class="navbar sticked-top">
 
         <div class="container-cabecalho">   <!-- criando uma classe para dividir melhor (div)  -->
 
@@ -72,7 +79,8 @@
             
                  <?php } ?>
 
-
     </div>
-    
+
+    </nav>
+
     </header>
