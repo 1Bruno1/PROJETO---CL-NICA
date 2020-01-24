@@ -1,9 +1,8 @@
+<?php require 'src/medico/pesquisarPorid.php'; ?>
 
-<?php require 'src/paciente/pesquisarPorid.php'; ?>
+<div class="corpo2">
 
-<div class="corpo">
-
-        <form action="src/paciente/salvar.php"method="POST">
+        <form action="src/medico/salvar.php"method="POST">
 
 
 <?php if(isset($_GET['id'])){?>
@@ -14,19 +13,19 @@
 
         <div class="form-group">
 
-            <input class="form-control" autocomplete="off" required id="input-nome" type="text" name="nome" placeholder="<?= $paciente['nome']?>">
+            <input class="form-control" autocomplete="off" required id="input-nome" type="text" name="nome" placeholder="<?= $medico['nome']?>">
 
         </div>
 
         <div class="form-group">
 
-            <input required class="form-control" type="date" name="nascimento" id="input-data" value="<?= $paciente['nascimento']?>">
+        <input required class="form-control" type="select" name="area" id="input-area" placeholder="<?= $medico['area']?>">
 
         </div>
 
         <div class="form-group">
 
-            <input required class="form-control" type="text" name="cpf" id="input-cpf" placeholder="<?= $paciente['cpf']?>">
+            <input required class="form-control" type="email" name="email" id="input-email" placeholder="<?= $medico['email']?>">
 
         </div>
 

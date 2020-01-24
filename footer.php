@@ -9,7 +9,9 @@
                 <script>
 
                     $(document).ready( function () {
-                    $('#tabela-pacientes').DataTable();
+                    $('#tabela_paciente').DataTable();
+                    $('#tabela_medico').DataTable();
+                    $('#tabela_consulta').DataTable();
                 } );
 
                 </script>

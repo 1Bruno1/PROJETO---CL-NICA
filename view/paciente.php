@@ -17,7 +17,13 @@ require 'src/paciente/listar.php';
 ?>
 
 <br><br><br>
-<table class="table table-bordered  table-hover  table-striped" style="width: 100%"  id="tabela-pacientes">
+<table id="tabela_paciente" class="table table-bordered  table-hover  table-striped" style="width: 100%"  id="tabela-pacientes">
+
+    <caption>
+
+        <a id="botao_cadastrar" class="btn btn-sucess" href="?pagina=salvarPaciente">CADASTRAR</a>
+
+    </caption>
 
 <thead>
 

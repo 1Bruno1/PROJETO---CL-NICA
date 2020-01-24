@@ -40,6 +40,18 @@ switch ($pagina){
         include_once("view/salvarPaciente.php");
     break;
 
+    case 'salvarMedico':
+        include_once("view/salvarMedico.php");
+    break;
+
+    case 'consulta':
+        include_once("view/consulta.php");
+    break;
+
+    case 'salvarConsulta':
+        include_once("view/salvarConsulta.php");
+    break;
+
     default:
         include_once('view/home.php');
 }
