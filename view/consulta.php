@@ -42,7 +42,6 @@ require 'src/consulta/listar.php';
     <tbody>
     
 
-
 <?php while ($linha = mysqli_fetch_assoc($tabelaConsultas)){ 
 //    Fetch = Formata cada linha do while (linha = 0, linha = 1, ...) 
 

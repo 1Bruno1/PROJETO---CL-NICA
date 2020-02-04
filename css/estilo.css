@@ -13,7 +13,7 @@ header {
     width: 100%;
     background-color: rgba(19, 146, 146, 0.87);
     display: inline-flex;
-    text-decoration: none;
+
 }
 
 .container-cabecalho {
@@ -24,6 +24,7 @@ header {
     justify-content: center;
     text-align: center;
 }
+
 
 #img-logo {
     /*   imagem (logo) colocada no header   */
@@ -52,19 +53,20 @@ header {
 .body-container #tabela_paciente {
     color: black;
     background: rgba(240, 236, 236, 0.883);
-    font-size: 17px;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
 }
 
 .body-container #tabela_consulta {
     color: black;
     background: rgba(240, 236, 236, 0.883);
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .body-container #tabela_medico {
     color: black;
     background: rgba(240, 236, 236, 0.883);
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .body-container h1 {

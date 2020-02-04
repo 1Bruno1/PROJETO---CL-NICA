@@ -57,8 +57,9 @@ require 'src/paciente/listar.php';
     <td>   <?= $linha['cpf']  ?>   </td>
         <td>
             <a href="?pagina=salvarPaciente&id=<?= $linha['id'] ?>">EDITAR</a>
-            <a href="src/paciente/excluir.php?id=<?= $linha['id'] ?>">EXCLUIR</a>
-            
+        </td>
+        <td>
+        <a href="src/paciente/excluir.php?id=<?= $linha['id'] ?>">EXCLUIR</a>
         </td>
 
 </tr>

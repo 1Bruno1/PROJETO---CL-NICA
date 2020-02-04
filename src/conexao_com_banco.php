@@ -3,7 +3,7 @@
 $servername = "localhost";
 $database = "umbrela";
 $username = "root";
-$password = "aluno";
+$password = "";
 
 
 // CRIANDO A CONEXÃO

@@ -40,6 +40,7 @@ require 'src/medico/listar.php';
 
     <tbody>
     
+    
 
 
 <?php while ($linha = mysqli_fetch_assoc($tabelaMedicos)){ 
