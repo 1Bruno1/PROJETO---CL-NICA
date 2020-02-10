@@ -19,7 +19,7 @@
                                                     <!--   exemplo: "nome da pasta/ nome do arquivo.css   -->
                                                     <!--   exemplo: "css/estilo.css   -->
 
-    <title>CLÍNICA UMBRELLA</title>
+    <title>VIDA BELA</title>
 
 </head>
 
@@ -36,7 +36,7 @@
 
                 <img id="img-logo" src="img/umbrella.png" alt="logo">
                 <!--  Importando imagem usada na logo do site (no cabeçalho)  -->
-                <h1 id="nome-logo">Clínica Umbrella</h1>
+                <h1 id="nome-logo">VIDA BELA</h1>
                 <!-- h1 = título do cabeçalho  -->
             </a>
 

@@ -46,7 +46,7 @@ header {
 
 .body-container {
     min-height: calc(100vh - 200px);
-    background-image: url("http://localhost/clinica_umbrela/img/umbrela.jpeg");
+    background-image: url("http://localhost/projeto_clinica/img/umbrela.jpeg");
     /*   altura mínima do rodapé  */
 }
 

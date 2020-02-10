@@ -43,10 +43,10 @@ if (mysqli_num_rows($resultado) == 1) {
 
     mysqli_close($conexao);
 
-    header('location: http://localhost/clinica_umbrela/?pagina=home');
+    header('location: http://localhost/projeto_clinica/?pagina=home');
 
 } else {
-    header('location: http://localhost/clinica_umbrela/?pagina=login&erro=Login ou Senha inválidos!');
+    header('location: http://localhost/projeto_clinica/?pagina=login&erro=Login ou Senha inválidos!');
 }
 
 // ************************************************************************************************************

@@ -18,7 +18,7 @@ include "conexao_com_banco.php";
 
     if (mysqli_num_rows($resultado) == 1) {
 
-        header('location: http://localhost/clinica_umbrela/?pagina=register&erro=Login já existente!');
+        header('location: http://localhost/projeto_clinica/?pagina=register&erro=Login já existente!');
 
     } else {
 
@@ -26,7 +26,7 @@ include "conexao_com_banco.php";
 
         $executar = mysqli_query($conexao, $sql2);
 
-        header('location: http://localhost/clinica_umbrela/?pagina=home');
+        header('location: http://localhost/projeto_clinica/?pagina=home');
 
 
     }
