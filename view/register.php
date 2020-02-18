@@ -16,7 +16,7 @@
             <?php } ?>
 
 
-        <input type="submit" value="ENTRAR" id="input-botao">
+        <input type="submit" value="CADASTRAR" id="input-botao">
 
 
 

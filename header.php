@@ -4,12 +4,19 @@
 <head>  <!-- comentário -->
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Bruno Silva Albuquerque">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
     <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Krona+One&display=swap" rel="stylesheet">
+
+    
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/bootstrap.min.css"> 
     <link rel="stylesheet" href="css/datatables.min.css"> 
@@ -19,7 +26,8 @@
                                                     <!--   exemplo: "nome da pasta/ nome do arquivo.css   -->
                                                     <!--   exemplo: "css/estilo.css   -->
 
-    <title>VIDA BELA</title>
+   
+    <title>MAIS VIVER</title>   <!-- TITULO DO DOCUMENTO -->
 
 </head>
 
@@ -36,7 +44,7 @@
 
                 <img id="img-logo" src="img/umbrella.png" alt="logo">
                 <!--  Importando imagem usada na logo do site (no cabeçalho)  -->
-                <h1 id="nome-logo">VIDA BELA</h1>
+                <h1 id="nome-logo">MAIS VIVER</h1>
                 <!-- h1 = título do cabeçalho  -->
             </a>
 

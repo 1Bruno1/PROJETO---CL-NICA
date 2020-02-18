@@ -4,6 +4,6 @@ session_start();
 
 session_destroy();
 
-header('location: http://localhost/clinica_umbrela/?pagina=home');
+header('location: http://localhost/projeto_clinica/?pagina=home');
 
 ?>

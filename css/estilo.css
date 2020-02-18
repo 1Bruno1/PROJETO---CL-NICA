@@ -2,7 +2,7 @@ body {
     /*  CORPO DO SITE (body)   */
     margin: 0px;
     /*  MARGIN = DISTÂNCIA (lados, cima e baixo) ENTRE O CABEÇALHO E AS MARGENS DA TELA   */
-    background-color: rgb(19, 199, 206);
+    background-color: rgba(28, 152, 173, 0.993);
     /*  COR DE FUNDO DO CORPO   */
 }
 
@@ -11,7 +11,7 @@ header {
     height: 120px;
     /*   height = altura  */
     width: 100%;
-    background-color: rgba(19, 146, 146, 0.87);
+    background-color: rgba(28, 152, 173, 0.993);
     display: inline-flex;
 
 }
@@ -40,7 +40,7 @@ header {
     color: rgb(255, 255, 255);
     /*   cor da fonte   */
     font-size: 3.1rem;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Krona One', sans-serif;
     margin: 0px 0px 0px 30px;
 }
 
@@ -83,7 +83,7 @@ a {
 
 footer {
     height: 80px;
-    background-color: rgba(19, 146, 146, 0.87);
+    background-color: rgba(28, 152, 173, 0.993);
     font-size: 17pt;
     color: white;
     text-align: center;
@@ -93,7 +93,7 @@ footer {
 .body-container #botao_cadastrar {
     font-size: 23px;
     color: white;
-    background-color: rgba(19, 146, 146, 0.87);
+    background-color: rgba(28, 152, 173, 0.993);
 }
 
 .center {
@@ -151,7 +151,7 @@ form .error {
 .grade>.formulario {
     height: 500px;
     width: 500px;
-    background-color: rgba(19, 146, 146, 0.87);
+    background-color: rgba(28, 151, 173, 0.945);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -180,23 +180,24 @@ form .error {
 .grade>.formulario #input-botao {
     height: 45px;
     width: 180px;
-    background-color: rgb(0, 0, 0);
-    border: solid white 1px;
-    color: rgb(226, 218, 218);
+    background-color: rgba(240, 238, 238, 0.87);
+    border: solid black 1px;
+    color: black;
     font-family: 'Fjalla One', sans-serif;
     font-size: 25px;
 }
 
 #titulo {
     color: rgb(255, 255, 255);
-    font-size: 25pt;
+    font-size: 27pt;
     margin-left: 300px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
 
 #titulo-canto {
     color: rgb(255, 255, 255);
-    font-size: 25pt;
+    font-size: 27pt;
     margin-left: 50px;
     font-family: Arial, Helvetica, sans-serif
 }
